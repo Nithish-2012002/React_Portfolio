@@ -44,10 +44,10 @@ const Contact = () =>{
     }
     emailjs
       .send(
-        "service_mrrptoq", // Replace with your EmailJS service ID
-        "template_1lzegee", // Replace with your EmailJS template ID
+        process.env.REACT_APP_SERVICE, // Replace with your EmailJS service ID
+        process.env.REACT_APP_TEMPLATE, // Replace with your EmailJS template ID
         formData,           // Pass form data directly
-        "xYXOEz6AXRBI0-Ag9"      // Replace with your EmailJS user ID
+        process.env.REACT_APP_USER    // Replace with your EmailJS user ID
       )
       .then(
         (response) => {

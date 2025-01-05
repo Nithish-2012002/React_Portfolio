@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 const DateTime = () =>{
-    const dob = "2002-09-12T23:10:00";
+    const dob = process.env.REACT_APP_DOB;
     const [years,setYears]=useState('');
     const [months,setMonths]=useState('');
     const [days,setDays]=useState('');
