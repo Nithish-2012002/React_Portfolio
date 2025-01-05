@@ -4,8 +4,8 @@ const Skillset = () =>{
         <>
 <div id="section2" className="lg:w-full">
 <h1 className="text-white text-4xl text-center font-[500] mt-32">Skillset</h1>
-<div className="md:w-6/12  lg:w-8/12 mx-auto">
-    <div className="flex gap-4 lg:gap-12 px-4 mt-8 items-center">
+<div className="md:w-6/12 lg:w-8/12 flex justify-center mx-auto">
+    <div className="flex gap-2 lg:gap-12 px-4 mt-8 items-center">
         <div>
     <div class="relative size-20 lg:size-40">
   <svg class="size-full -rotate-90" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
@@ -98,8 +98,8 @@ const Skillset = () =>{
 </div>
 </div>
 
-<div className="md:w-6/12 lg:w-8/12 mx-auto mt-12 lg:mt-24">
-    <div className="flex gap-4 lg:gap-12 px-4 mt-8 items-center">
+<div className="md:w-6/12 lg:w-8/12 flex justify-center mx-auto mt-12 lg:mt-24">
+    <div className="flex gap-2 lg:gap-12 px-4 mt-8 items-center">
         <div>
     <div class="relative size-20 lg:size-40">
   <svg class="size-full -rotate-90" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">

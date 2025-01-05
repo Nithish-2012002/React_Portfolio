@@ -25,7 +25,7 @@ const Projects = () =>{
                     </div>
                     <div className="p-6 text-surface dark:text-white w-full items-center">
                         <h5 className="mb-2 text-xl font-medium leading-tight text-center">Ping Pong Game</h5>
-                        <p className="mb-4 text-sm text-base text-justify">
+                        <p className="mb-4 text-sm text-base text-black text-justify">
                         Beat the bot is a ping pong game developed using HTML, CSS and JavaScript. The game is developed using the concept of DOM manipulation and event listeners.
                         </p>
                         <div className="w-full flex justify-center">
@@ -61,7 +61,7 @@ const Projects = () =>{
                     </div>
                     <div className="p-6 text-surface dark:text-white w-full items-center">
                         <h5 className="mb-2 text-xl font-medium leading-tight text-center">Simple Calculator</h5>
-                        <p className="mb-4 text-sm text-base text-justify">
+                        <p className="mb-4 text-sm text-base text-black text-justify">
                         Build Using HTML, CSS and JavaScript. This is an basic calculator which can perform basic arithmetic operations. Simple and handy Project check it on github
                         </p>
                         <div className="w-full flex justify-center">
@@ -92,7 +92,7 @@ const Projects = () =>{
                     </div>
                     <div className="p-6 text-surface dark:text-white w-full items-center">
                         <h5 className="mb-2 text-xl font-medium leading-tight text-center">Student Management</h5>
-                        <p className="mb-4 text-sm text-base text-justify">
+                        <p className="mb-4 text-sm text-base text-black text-justify">
                         Built using Node.js, Express.js. This is a simple CRUD application which can perform basic operations like Create, Read, Update and Delete. Check it on github
                         </p>
                         <div className="w-full flex justify-center">
